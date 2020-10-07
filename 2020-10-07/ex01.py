@@ -4,6 +4,7 @@ import colored_traceback.always
 import MeCab
 
 text = "ティックトックでどんだけ食べてもゼロカロリーやってみた＼(^o^)／卍。"
+print(text)
 
 pos_list = [10, 11, 31, 32, 34]
 pos_list.extend(list(range(36,50)))
